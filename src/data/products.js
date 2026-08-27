@@ -1,0 +1,11 @@
+export const products = [
+ {id:'cloud-bed',name:'Cloud Bed',type:'Rest',price:148,color:'Oat',badge:'Bestseller',image:'https://images.unsplash.com/photo-1560807707-8cc77767d783?auto=format&fit=crop&w=1200&q=85',description:'A sculptural, sink-in bed made for long afternoons and deeper sleep.'},
+ {id:'halo-bowl',name:'Halo Bowl',type:'Dine',price:64,color:'Chalk',badge:'New',image:'https://images.unsplash.com/photo-1589924691995-400dc9ecc119?auto=format&fit=crop&w=1200&q=85',description:'Weighty stoneware with a low, whisker-friendly profile.'},
+ {id:'field-leash',name:'Field Leash',type:'Walk',price:58,color:'Moss',image:'https://images.unsplash.com/photo-1558788353-f76d92427f16?auto=format&fit=crop&w=1200&q=85',description:'Soft-touch webbing, solid brass hardware, and an easy everyday length.'},
+ {id:'arc-collar',name:'Arc Collar',type:'Walk',price:42,color:'Sienna',image:'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=85',description:'A quietly distinctive collar designed to soften beautifully with wear.'},
+ {id:'nest-blanket',name:'Nest Blanket',type:'Rest',price:88,color:'Clay',image:'https://images.unsplash.com/photo-1575859431774-2e57ed632664?auto=format&fit=crop&w=1200&q=85',description:'Washed cotton layers for sofas, beds, back seats, and everywhere between.'},
+ {id:'column-feeder',name:'Column Feeder',type:'Dine',price:118,color:'Sand',image:'https://images.unsplash.com/photo-1601758228041-f3b2795255f1?auto=format&fit=crop&w=1200&q=85',description:'An elevated oak feeder that brings good posture to the daily ritual.'},
+ {id:'companion-tote',name:'Companion Tote',type:'Travel',price:172,color:'Ink',image:'https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=1200&q=85',description:'A structured, breathable carrier that feels at home in the city.'},
+ {id:'orbit-toy',name:'Orbit Toy',type:'Play',price:28,color:'Ochre',image:'https://images.unsplash.com/photo-1535294435445-d7249524ef2e?auto=format&fit=crop&w=1200&q=85',description:'Natural rubber and an unpredictable roll for curious, busy minds.'}
+];
+export const money = value => new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(value);

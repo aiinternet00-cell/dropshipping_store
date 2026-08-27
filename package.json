@@ -1,0 +1,1 @@
+{"name":"morrow-pets","private":true,"version":"1.0.0","type":"module","scripts":{"dev":"node scripts/server.js","build":"node scripts/build.js","preview":"node scripts/server.js dist"}}
